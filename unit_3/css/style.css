@@ -3,47 +3,39 @@ body {
 	margin: 50px;
 	font-family: helvetica;
 }
-
 h1 {
 	color: #fff;
 	font-size: 60px;
 }
-
 h3 {
 	color: #fff;
 	font-size: 30px;
 	text-align: center;
 	font-style: italic;
 }
-
 h2 {
 	padding: 10px;
 	color: #fff;
 	font-size: 40px;
 }
-
 h4 {
 	color: #fff;
 	font-size: 25px;
 	text-align: center;
 }
-
 hr {
 	width: 200px;
 	margin-left: 10px;
 }
-
 p {
 	color: #fff;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 
 }
-
 a {
 	color: #fff;
 }
-
 ul {
 	color: #fff;
 	font-size: 30px;
@@ -51,11 +43,35 @@ ul {
     text-align: left;
     list-style-type: none;
 }
-
 img	{
 	padding: 5px;
 }
-
-table {
-	padding: 20px;
+/* a bit about div table */
+.aboutTable{
+	display: table;
+	width: 100%;
+}
+.aboutTableRow {
+	display: table-row;
+}
+.aboutTableCell, .aboutTableHead {
+	display: table-cell;
+	width: 50%;
+}
+.aboutTableBody {
+	display: table-row-group;
+}
+/* Some of My Work div table */
+.myworkTable {
+	display: table;
+	width: 100%;
+}
+.myworkTableRow {
+	display: table-row;
+}
+.myworkTableCell {
+	display: table-cell;
+}
+.myworkTableBody {
+	display: table-row-group;
 }
