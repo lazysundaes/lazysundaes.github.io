@@ -31,6 +31,7 @@ h4 {
 hr {
 	width: 200px;
 	margin-left: 10px;
+	vertical-align: left;
 }
 p {
 	color: #fff;
@@ -57,16 +58,15 @@ img	{
 	padding: 5px;
 }
 /* a bit about div table */
+}
 .aboutTable{
 	display: table;
-	width: 100%;
 }
 .aboutTableRow {
 	display: table-row;
 }
 .aboutTableCell, .aboutTableHead {
 	display: table-cell;
-	width: 50%;
 }
 .aboutTableBody {
 	display: table-row-group;
@@ -74,7 +74,6 @@ img	{
 /* Some of My Work div table */
 .myworkTable {
 	display: table;
-	width: 100%;
 }
 .myworkTableRow {
 	display: table-row;
