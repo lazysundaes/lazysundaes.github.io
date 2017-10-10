@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Roboto:500,700');
+
+body {
+	background-color: #0000ff;
+	margin: 50px;
+	font-family: helvetica;
+}
+h1 {
+	color: #fff;
+	font-size: 60px;
+}
+h3 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Playfair', serif;
+	letter-spacing: 2px
+}
+h2 {
+	padding: 10px;
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+h4 {
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+hr {
+	width: 200px;
+	margin-left: 10px;
+}
+p {
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Playfair', serif;
+	letter-spacing: 1px;
+	line-height: 30px
+}
+a {
+	color: #fff;
+}
+ul {
+	color: #fff;
+	font-size: 30px;
+	padding: 10px;
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+img	{
+	padding: 5px;
+}
+/* a bit about div table */
+.aboutTable{
+	display: table;
+	width: 100%;
+}
+.aboutTableRow {
+	display: table-row;
+}
+.aboutTableCell, .aboutTableHead {
+	display: table-cell;
+	width: 50%;
+}
+.aboutTableBody {
+	display: table-row-group;
+}
+/* Some of My Work div table */
+.myworkTable {
+	display: table;
+	width: 100%;
+}
+.myworkTableRow {
+	display: table-row;
+}
+.myworkTableCell {
+	display: table-cell;
+}
+.myworkTableBody {
+	display: table-row-group;
+}
