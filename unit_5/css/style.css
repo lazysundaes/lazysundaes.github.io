@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Roboto:500,700');
+body{
+	background-color: #ffff55;
+	background-image: url('/Users/GOLDIE/Desktop/GENERAL_ASSEMBLY/unit_5/images/cactus-yellowblueBG.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: helvetica;
+}
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1{
+	color: #00f3ff;
+}
+h2{
+	font-size: 60px;
+	color: #00f3ff;
+}
+h3{
+	color: #525252;
+}
+h4{
+	font-size: 40px;
+	color: #00f3ff;
+}
+p {
+	color: #525252;
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Playfair', serif;
+	font-weight: bold;
+	letter-spacing: .5px;
+	line-height: 30px;
+	text-shadow: 1px 1px #ffff55;
+}
+a{
+	color: #525252;
+	text-decoration: none;
+}
+ul {
+	color: #525252;
+	font-size: 30px;
+	padding: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-shadow: 1px 1px #ffff55;
+}
+.heading{
+	letter-spacing: -4px;
+	text-align: left;
+	text-shadow: 2px 2px #ea00ff;
+}
+#wrapper{
+	/*background-color: rgba(255,254,91,.1);*/
+	width: 1366px;
+	margin: auto;
+}
+#logo{
+	text-shadow: 2px 2px #ea00ff;
+	line-height: -10px; 
+}
+/*#services{
+	width: 50%;
+	float: right;*/
+}
+#design{
+	color: #525252;
+	font-size: 45px;
+	text-shadow: none;
+}
+#herotext{
+	font-size: 200px;
+	text-align: center;
+	line-height: 160px;
+	text-shadow: 5px 5px #ea00ff;
+}
+/*#about{
+	width: 50%;
+	float: left;
+}*/
